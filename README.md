@@ -6,7 +6,7 @@ A simple ATM Banking System developed using Python. This project simulates basic
 
 Users can withdraw money if:
 
-The entered amount is greater than ₹0 At least ₹20,000 remains in the account after withdrawal 2. Deposit 
+The entered amount is greater than ₹0 At least ₹2000 remains in the account after withdrawal 2. Deposit 
 
 Users can deposit any amount greater than ₹0.
 
@@ -14,7 +14,7 @@ Users can deposit any amount greater than ₹0.
 
 Displays the current account balance.
 
-🔑 Demo Account Account Number: 1234567890 Initial Balance: ₹45,000 Minimum Balance: ₹20,000 
+🔑 Demo Account Account Number: 1234567890 Initial Balance: ₹45,000 Minimum Balance: ₹2000 
 
 ⚠️ This is an educational project. It does not connect to a real banking system.
 
