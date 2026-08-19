@@ -1,0 +1,91 @@
+balance = 45000
+
+while True:
+    print("\n\n")
+
+    print("*" * 57)
+    print(format('Welcome to "Bank of Vishal"', "^57"))
+    print("*" * 57)
+    print()
+
+    a = input("Enter your 10 digit account number: ")
+
+    if a == "1234567890":
+
+        print("=" * 57)
+        print(format("Select any one", "^57"))
+        print("=" * 57)
+
+        print("""
+        1. Withdraw
+
+        2. Deposit
+
+        3. Check balance
+        """)
+
+        print("=" * 57)
+        print()
+
+        b = int(input("Enter here: "))
+        print()
+
+        # WITHDRAW
+        if b == 1:
+            print("You selected Withdraw mode\n")
+
+            c = int(input("Enter amount: "))
+            print()
+
+            if c > 0:
+                if balance - c >= 20000:
+                    balance -= c
+
+                    print("Amount withdrawn")
+                    print("\nYour remaining balance is:", balance)
+
+                    print("\n" + "*" * 57)
+                    print(format("Thank you!!! Visit again", "^57"))
+                    print("*" * 57)
+
+                else:
+                    print("Minimum ₹20,000 must be present in your account")
+
+            else:
+                print("Invalid amount")
+
+        # DEPOSIT
+        elif b == 2:
+            print("You selected Deposit mode\n")
+
+            d = int(input("Enter amount: "))
+
+            if d > 0:
+                balance += d
+
+                print("\nAmount deposited")
+                print("\nYour remaining balance is:", balance)
+
+                print("\n" + "*" * 57)
+                print(format("Thank you!!! Visit again", "^57"))
+                print("*" * 57)
+
+            else:
+                print("\nInvalid amount")
+
+        # CHECK BALANCE
+        elif b == 3:
+            print("You selected Check balance mode\n")
+
+            print("Your balance is:", balance)
+
+            print("\n" + "*" * 57)
+            print(format("Thank you!!! Visit again", "^57"))
+            print("*" * 57)
+
+        # INVALID OPTION
+        else:
+            print("Select only from the given choices")
+
+    else:
+        print("Incorrect account number")
