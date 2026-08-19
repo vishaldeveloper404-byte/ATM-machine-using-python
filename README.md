@@ -2,7 +2,7 @@
 
 A simple ATM Banking System developed using Python. This project simulates basic ATM operations such as Withdraw, Deposit, and Balance Checking using a command-line interface.
 
-🚀 Features 🔐 10-digit account number verification 💸 Withdraw money 💰 Deposit money 💳 Check account balance 🛡️ Maintains a minimum balance of ₹20,000 ❌ Validates invalid amounts and menu choices 🔄 Continuous ATM operation using a while loop 🖥️ Simple and user-friendly CLI interface 🛠️ Technologies Used Python 3 while loop if / elif / else input() Variables String formatting Basic arithmetic operations 💡 ATM Operations 1. Withdraw 
+🚀 Features 🔐 10-digit account number verification 💸 Withdraw money 💰 Deposit money 💳 Check account balance 🛡️ Maintains a minimum balance of ₹2000 ❌ Validates invalid amounts and menu choices 🔄 Continuous ATM operation using a while loop 🖥️ Simple and user-friendly CLI interface 🛠️ Technologies Used Python 3 while loop if / elif / else input() Variables String formatting Basic arithmetic operations 💡 ATM Operations 1. Withdraw 
 
 Users can withdraw money if:
 
