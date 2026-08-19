@@ -49,7 +49,7 @@ while True:
                     print("*" * 57)
 
                 else:
-                    print("Minimum ₹20,000 must be present in your account")
+                    print("Minimum ₹2000 must be present in your account")
 
             else:
                 print("Invalid amount")
