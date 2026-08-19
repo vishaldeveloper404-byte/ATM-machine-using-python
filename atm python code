@@ -38,7 +38,7 @@ while True:
             print()
 
             if c > 0:
-                if balance - c >= 20000:
+                if balance - c >= 2000:
                     balance -= c
 
                     print("Amount withdrawn")
